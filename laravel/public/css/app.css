@@ -1,0 +1,25 @@
+.authentication-page-content {
+    margin-top: 15%;
+    background: #fff;
+}
+
+.auth-bg {
+    background: url(/assets/img/login-background.jpg);
+    background-color: rgba(var(--bs-primary-rgb), 1);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+}
+
+.table-input {
+    display: flex;
+}
+
+.table-input>button, .table-input>input {
+    display: block;
+    flex: 1 1 max-content;
+    margin-left: 10px;
+}
+
